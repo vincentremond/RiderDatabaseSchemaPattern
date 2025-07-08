@@ -5,3 +5,4 @@ Microsoft.NET.Test.Sdk
 NUnit
 NUnit.Analyzers
 NUnit3TestAdapter
+verify.nunit
