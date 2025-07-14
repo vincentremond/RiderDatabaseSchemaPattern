@@ -27,6 +27,7 @@ module PatternBuilder =
 
         for value in shouldNotMachAny do
             let isMatch = regex.IsMatch(value)
+
             if isMatch then
                 failwithf $"The value '%s{value}' should not match the pattern '%s{pattern}'"
 
