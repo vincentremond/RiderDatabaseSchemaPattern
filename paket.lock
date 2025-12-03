@@ -83,14 +83,14 @@ NUGET
     System.Threading.Tasks.Extensions (4.6.3) - restriction: >= net462
       System.Runtime.CompilerServices.Unsafe (>= 6.1.2) - restriction: || (>= net462) (&& (< netcoreapp2.1) (>= netstandard2.0) (< netstandard2.1))
     System.ValueTuple (4.6.1) - restriction: >= net462
-    Verify (31.7.3) - restriction: || (>= net462) (>= net6.0)
+    Verify (31.8) - restriction: || (>= net462) (>= net6.0)
       Argon (>= 0.33) - restriction: || (>= net462) (>= net6.0)
       DiffEngine (>= 17.0.1) - restriction: || (>= net462) (>= net6.0)
       Microsoft.Bcl.AsyncInterfaces (>= 10.0) - restriction: >= net462
       SimpleInfoName (>= 3.1.2) - restriction: || (>= net462) (>= net6.0)
       System.Memory (>= 4.6.3) - restriction: >= net462
       System.ValueTuple (>= 4.5) - restriction: && (>= net462) (< net472)
-    Verify.NUnit (31.7.3)
+    Verify.NUnit (31.8)
       Argon (>= 0.33) - restriction: || (>= net462) (>= net6.0)
       DiffEngine (>= 17.0.1) - restriction: || (>= net462) (>= net6.0)
       Microsoft.Bcl.AsyncInterfaces (>= 10.0) - restriction: >= net462
@@ -98,4 +98,4 @@ NUGET
       SimpleInfoName (>= 3.1.2) - restriction: || (>= net462) (>= net6.0)
       System.Memory (>= 4.6.3) - restriction: >= net462
       System.ValueTuple (>= 4.5) - restriction: >= net462
-      Verify (>= 31.7.3) - restriction: || (>= net462) (>= net6.0)
+      Verify (>= 31.8) - restriction: || (>= net462) (>= net6.0)
