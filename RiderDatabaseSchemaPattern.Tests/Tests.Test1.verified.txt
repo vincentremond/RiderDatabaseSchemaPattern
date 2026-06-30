@@ -1,1 +1,1 @@
-﻿{.*}:{^(?!(db_\|INFORMATION_SCHEMA$\|sys$\|guest$)).*}
+﻿{^(?!(tempdb$\|master$\|msdb$\|model$)).*}:{^(?!(db_\|INFORMATION_SCHEMA$\|sys$\|guest$)).*}
